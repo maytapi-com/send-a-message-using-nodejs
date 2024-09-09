@@ -1,0 +1,16 @@
+{
+    "name": "send-a-message-using-nodejs",
+    "version": "1.0.0",
+    "description": "Send WhatsApp messages using Node.js and Maytapi API",
+    "main": "src/sendMessage.js",
+    "scripts": {
+      "start": "node src/sendMessage.js"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    },
+    "devDependencies": {},
+    "keywords": ["whatsapp", "api", "maytapi", "nodejs"],
+    "author": "Maytapi",
+    "license": "MIT"
+  }
