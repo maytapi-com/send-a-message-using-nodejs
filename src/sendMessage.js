@@ -25,10 +25,10 @@ async function sendWhatsAppMessage(toNumber, message) {
     }
 }
 
-// Örnek kullanım
+
 (async () => {
     try {
-        const result = await sendWhatsAppMessage("905301234567", "Merhaba Dünya!");
+        const result = await sendWhatsAppMessage("905301234567", "Hello World!");
         console.log(result);
     } catch (error) {
         console.error('Failed to send message:', error);
