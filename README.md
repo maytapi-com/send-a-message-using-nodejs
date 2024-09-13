@@ -15,12 +15,45 @@ This repository demonstrates how to send a WhatsApp message using Node.js and th
 - npm (Node Package Manager)
 - Maytapi account and API credentials
 
-## Quick Start
+## Installation
+1. Clone this repository:<br/>
+```
+https://github.com/maytapi-com/send-a-message-with-nodejs-using-whatsapp-api.git
+cd project-folder
+```
+2. Install dependencies:<br/>
+```
+npm i
+```
+3. Edit `src/config.js` and add your Maytapi credentials:
+```javascript
+module.exports = {
+    PRODUCT_ID: 'your_product_id',
+    PHONE_ID: 'your_phone_id',
+    API_KEY: 'your_api_key'
+};
+```
 
-1. Clone this repository
-2. Run `npm install` to install dependencies
-3. Configure your Maytapi credentials in `src/config.js`
-4. Run `node src/sendMessage.js` to send a test message
+## Usage 
+To send a test message:
+```bash
+node src/sendMessage.js
+```
+To use in your own project:
+1. Import the sendWhatsAppMessage function:
+```javascript
+const sendWhatsAppMessage = require('./src/sendMessage');
+```
+2. Use the function in your code:
+```javascript
+sendWhatsAppMessage("905301234567", "Hello World!")
+  .then(result => console.log(result))
+  .catch(error => console.error(error));
+```
+
+> [!NOTE]
+> **To perform all these operations correctly, you need to register with maytapi.com, get the credentials, and place them in the config file..**
+
 
 ## Why Maytapi?
 
