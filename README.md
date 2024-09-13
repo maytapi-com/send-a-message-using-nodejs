@@ -52,7 +52,7 @@ sendWhatsAppMessage("905301234567", "Hello World!")
 ```
 
 > [!NOTE]
-> **To perform all these operations correctly, you need to register with maytapi.com, get the credentials, and place them in the config file..**
+> **To perform all these operations correctly, you need to register with maytapi.com, get the credentials, and place them in the config file.**
 
 
 ## Why Maytapi?
@@ -72,4 +72,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Support
 
-For questions about Maytapi's WhatsApp API, visit their [official documentation](https://maytapi.com/whatsapp-api-documentation) or contact their support team.
+For questions about Maytapi's WhatsApp API, visit  [official documentation](https://maytapi.com/whatsapp-api-documentation) or contact support team.
